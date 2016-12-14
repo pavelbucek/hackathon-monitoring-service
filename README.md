@@ -13,6 +13,7 @@ Table of contents
     * [ping-listener-service](#ping-listener-service)
     * [ping-scheduler](#ping-scheduler)
     * [monitoring-frontend](#monitoring-frontend)
+  * [Service Graph](#service-graph)
   * [Build/run HOWTO](#build/run-howto)
 
 Service list
@@ -81,6 +82,12 @@ The service provides all APIs necessary for the page to work, so:
 Screenshot of the title page:
 
 ![Index page screenshot](docs/images/index-screenshot.png)
+
+Service graph
+=============
+
+![Index page screenshot](docs/images/services.png)
+
 
 Build/run HOWTO
 ===============
