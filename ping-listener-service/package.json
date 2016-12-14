@@ -1,0 +1,17 @@
+{
+  "name": "ping-listener-service",
+  "version": "1.0.0",
+  "description": "Ping Listener Service - subsribed to an events from ping service, stores them in the data store",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel Bucek",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^0.6.0",
+    "@google-cloud/pubsub": "^0.7.0",
+    "infinite-loop": "^0.2.2"
+  }
+}

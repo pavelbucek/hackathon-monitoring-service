@@ -1,0 +1,21 @@
+{
+  "name": "monitoring-frontend",
+  "version": "1.0.0",
+  "description": "Frontend service",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel Bucek",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^0.6.0",
+    "@google-cloud/pubsub": "^0.7.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-ws": "^2.0.0",
+    "http": "0.0.0",
+    "node-uuid": "^1.4.7"
+  }
+}
